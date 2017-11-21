@@ -2,6 +2,7 @@ import { Connector} from './connector';
 import {
     PusherChannel, PusherPrivateChannel, PusherPresenceChannel, PresenceChannel
 } from './../channel';
+import * as Pusher from 'pusher-js';
 
 /**
  * This class creates a connector to Pusher.
